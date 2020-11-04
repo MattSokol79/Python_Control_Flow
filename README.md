@@ -61,13 +61,14 @@ sparta_user_details = {
     'grades' : ['A*', 'A', 'A'],
     'hobbies' : ['running', 'reading', 'hunting']
 }
-# To print keys
+# To print keys and values use a for loop
 for i, j in sparta_user_details.items():
-        print(i)
-
-# To print values
-for x, j in sparta_user_details.items():
-        print(j)
+        if isinstance(j, list):
+            print(f"Key: {i}")
+            for k in j:
+                print(f"List Value: {k}")
+        else:
+            print(f"Key: {i}, Value: {j}")
 ```
 
 ### while loops
