@@ -2,7 +2,7 @@
 ## if, elif and else statements as well as: for loops and while loops
 
 ### if elif:
-```
+```python
 # Control Flow
 # if statements
 # Synatx: if then condition
@@ -40,7 +40,7 @@ else:
 ```
 
 ### for loops
-```
+```python
 # Loops for loop and while loop
 # for loop is used to iterate through the data 1 by 1 for example
 # Syntax for variable name in name_of_data collection_variable
@@ -76,7 +76,7 @@ for x, j in sparta_user_details.items():
 however you do see it used for monitoring
 - Key words like `break` and `continue`
 help control the flow of our loop
-```
+```python
 # While Loops!
 # break and continue can be used to control the flow of the loop
 # Syntax: while variable_name condition value:
